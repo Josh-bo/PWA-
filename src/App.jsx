@@ -1,8 +1,10 @@
 import { useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+import './index.css'
 import Cardo from './component/Cardo';
+import Formik from './component/Formik';
+import Ref from './component/Ref';
 
 
 function App(){
@@ -21,7 +23,9 @@ function App(){
  }, []);
  return(
    <>
-    <Cardo/>
+    {/* <Cardo/> */}
+    {/* <Formik/> */}
+    <Ref/>
    </>
  )
 }
